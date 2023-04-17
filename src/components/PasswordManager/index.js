@@ -68,7 +68,7 @@ class PasswordManager extends Component {
     } = this.state
 
     const newList = passwordsList.filter(each =>
-      each.passwordInput.toLowerCase().includes(searchInput.toLowerCase()),
+      each.webInput.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     const count = newList.length
